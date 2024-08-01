@@ -16,9 +16,10 @@ img{
 p,li,a{
     font-size: 14px;
     line-height: 1.2;
-    letter-spacing: 1px;
 }
-
+h1,h2,h3,h4,h5{ 
+    line-height: 1.2;
+}
 
 h1 span{
     color: rgb(204,0,0);
@@ -39,7 +40,101 @@ h1{
 .font12{
     font-size: 12px;
 }
+.font15{
+    font-size: 15px;
+}
+.font28{
+    font-size: 28px;
+}
 
 .before-after{
     border-radius: 12px;
+}
+
+.margin30{
+    margin-top: 30px;
+}
+.margin3030{
+    margin: 30px auto;
+}
+.red-btn{
+    color: #FF4C00;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.woman{
+    border-radius: 12px;
+    margin-top: 25px;
+}
+
+.red{
+    color:#FF4C00;
+}
+
+
+.radius{
+    border-radius: 10px;
+}
+
+.line-height{
+    line-height: 1.4;
+}
+
+.sub-title{
+    font-weight: 600;
+    line-height: 1.8;
+
+}
+
+.limited-red{
+    color: #FC0707;
+    font-size: 16px;
+    font-weight: 800;
+}
+.limited{
+    text-align: center;
+    border: 1px dashed #2352E7;
+    border-radius: 10px;
+    background-color: #F3F9FF;
+    margin-top: 45px;
+    margin-bottom: 100px;
+}
+
+.product{
+    width: 90%;
+    margin: auto;
+}
+
+.check{
+    width: 20px;
+}
+ 
+.limited-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.limited-div p{
+    color: #000000;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 5px;
+}
+
+.cta{
+background-color: #FF0000;
+display: block;
+margin: 15px auto;
+width: 80%;
+color: white;
+padding: 11px 15px;
+border-radius: 6px;
+
+}
+
+.cta:hover{
+    background-color: #005276;
 }
