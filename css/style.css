@@ -138,3 +138,44 @@ border-radius: 6px;
 .cta:hover{
     background-color: #005276;
 }
+
+
+.title{
+    text-align: center;
+    font-size:29px;
+}
+
+.sw p{
+    color: #424242;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.avatar{
+    display: block;
+    margin: auto;
+    width: 55px;
+}
+
+.name{
+    font-weight: 700;
+    color: #000000;
+    margin-bottom: 7px;
+}
+
+.stars{
+    width: 80px;
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.sw-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 20px;
+}
+
+.sw-bef-aft p{
+    margin: 0;
+}
