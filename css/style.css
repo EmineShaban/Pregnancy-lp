@@ -250,7 +250,10 @@ h1 {
 footer p {
     text-align: center;
 }
-
+div.autoplay-progress span{
+    color: red;
+    display: none;
+}
 
 @media screen and (min-width: 500px) {
 
@@ -337,6 +340,12 @@ footer p {
     }
 
 
+    .woman {
+        width: 50%;
+        display: inline-block;
+        float: right;
+
+    }
 
 
 }
@@ -368,12 +377,16 @@ footer p {
         display: flex;
         flex-direction: row-reverse;
         column-gap: 20px;
+        align-items: center;
+
     }
-    .flex2{
-        display: flex;
+
+    .flex2 {
+        /* display: flex; */
         column-gap: 20px;
 
     }
+
     .before-after,
     .woman,
     .radius,
@@ -388,15 +401,84 @@ footer p {
     .radius {
         width: 40%;
     }
+
     .sw-bef-aft img {
         width: 75%;
         display: block;
         margin: auto;
     }
-.woman{
-    width: 50%;
+
+
+    /* .women{
+    float: right;
+
+} */
 
 }
+
+
+
+
+
+
+@media screen and (min-width: 1440px) {
+    .before-after {
+        width: 50%;
+        display: block;
+        margin: auto;
+    }
+
+    .woman,
+    .radius,
+    .before-and-after2,
+    .product,
+    .sw-bef-aft img {
+        width: 40%;
+        display: block;
+        margin: auto;
+    }
+
+    h1 span {
+        color: rgb(204, 0, 0);
+        display: block;
+        font-size: 45px;
+        font-weight: 800;
+    }
+
+    h1 {
+        font-size: 33px;
+
+    }
+
+    .sw-bef-aft img {
+        width: 70%;
+
+    }
+
+
+    .limited {
+        width: 75%;
+        margin: auto;
+        margin-top: 45px;
+        padding: 25px;
+    }
+
+    .product {
+        width: 60%;
+        display: block;
+        margin: auto;
+    }
+
+
+}
+
+
+
+@media screen and (min-width: 1800px) {
+    .container {
+        width: 50%;
+        margin: auto;
+    }
 
 
 
